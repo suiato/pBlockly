@@ -13,4 +13,6 @@ The content of the lib/p5 directory is obtained by
 
 In the files in blockly-demos, the links with ../../  were changed to ../../lib/blockly/, by using the VSCode editor's Replace in files menu.
 
-The language of Blockly demos are currently set for Japanese. 
+The language of Blockly demos are currently set for Japanese.
+
+An attempt to extend to p5.js is in sample1.html in the demos' generator app.
