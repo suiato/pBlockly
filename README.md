@@ -4,7 +4,6 @@ Portable/static Blockly to run Blockly apps (demos) as local as possible.
 Currently, the Blockly's original directory structure is reorganized by pushing Blockly's directories and files into the lib/blockly directory. P5.js directories/files are stored in the lib/p5 directory.
 
 The content of the lib/blockly directory is obtained by
-1. Copying the directories under the node_modules directory after running "npm install blockly".
 1. Copying the directories obtained by untaring .tgz file which is downloaded at https://www.jsdelivr.com/package/npm/blockly.
 1. Add closure directory obtained by untaring .tgz file which is downloaded at https://www.jsdelivr.com/package/npm/closure. 
 
