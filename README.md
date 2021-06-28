@@ -1,6 +1,17 @@
 # pBlockly
-Portable Blockly, simplified Blockly to run Blockly apps (demos/samples/games) as local as possible.
-Branches:
-1. main
-1. developer: for developers, including minimum static build modules necessary to run apps
-1. user: for users, who are interested in using Blockly(+p5.js blocks) without building modules, requiring only static scripts to run apps.
+Portable/static Blockly to run Blockly apps (demos) as local as possible.
+
+Currently, the Blockly's original directory structure is reorganized by pushing Blockly's directories and files into the lib/blockly directory. P5.js directories/files are stored in the lib/p5 directory.
+
+The content of the lib/blockly directory is obtained by
+1. Copying the directories obtained by untaring .tgz file which is downloaded at https://www.jsdelivr.com/package/npm/blockly.
+1. Add closure directory obtained by untaring .tgz file which is downloaded at https://www.jsdelivr.com/package/npm/closure. 
+
+The content of the lib/p5 directory is obtained by
+1. Copying the directories obtained by untaring .tgz file which is downloaded at https://www.jsdelivr.com/package/npm/p5.
+
+In the files in blockly-demos, the links with ../../  were changed to ../../lib/blockly/, by using the VSCode editor's Replace in files menu.
+
+The language of Blockly demos are currently set for Japanese.
+
+An attempt to extend to p5.js is in sample1.html in the demos' generator app.
