@@ -10,6 +10,6 @@ The content of the lib/blockly directory is obtained by
 The content of the lib/p5 directory is obtained by
 1. Copying the directories obtained by untaring .tgz file which is downloaded at https://www.jsdelivr.com/package/npm/p5.
 
-The original demos directory in the Blockly repository was renamed as blockly-demos, in which the links with ../../  were changed to ../../lib/blockly/, by using the VSCode editor's Replace in files menu. The language of Blockly demos are currently set to Japanese.
+The original demos directory in the Blockly repository was copied and renamed as blockly-demos, in which the links with ../../  were changed to ../../lib/blockly/, by using the VSCode editor's Replace in files menu. The language of Blockly demos are currently set to Japanese.
 
 An attempt to extend to p5.js is in sample1.html in the demos' generator app. Planning to add p5.js blocks using the blockfactory app in the blockly-demos.
