@@ -1,5 +1,5 @@
 # pBlockly
-Portable/static Blockly to run Blockly apps (demos) as local as possible.
+Portable/static Blockly to run Blockly apps (demos) so as to run and customize Blockly apps offline, requiring only a browser, without instaling node.js, npm, etc.
 
 Currently, the Blockly's original directory structure is reorganized by pushing Blockly's directories and files into the lib/blockly directory. P5.js directories/files are stored in the lib/p5 directory.
 
